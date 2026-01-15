@@ -20,7 +20,7 @@
 
 
 #Import NPRS DATA and name it as pain_nprs. 
-pain_nprs<-read.csv(file.choose(), header = TRUE)
+pain_nprs<-read.csv("NPRS_DATA.csv"), header = TRUE)
 str(pain_nprs)
 head(pain_nprs)
 dim(pain_nprs)
